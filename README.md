@@ -18,7 +18,7 @@
 ```
 
 URL/api/makestore/{가게이름}/{가게 테이블 수}/<br>
-[예시](https://easyorderAPI.seungwoohan0104.repl.co/api/test/3)
+[예시](https://easyorderAPI.seungwoohan0104.repl.co/api/makestore/test/3)
 
 # 주문하기 API
 ### 주문하기 <br>
@@ -32,7 +32,7 @@ URL/api/makestore/{가게이름}/{가게 테이블 수}/<br>
 ```
 
 URL/api/order/{가게이름}/{시킨 테이블}/{메뉴이름}/{메뉴가격}/<br>
-[예시](https://easyorderAPI.seungwoohan0104.repl.co/api/test/2/제육볶음/5000)
+[예시](https://easyorderAPI.seungwoohan0104.repl.co/api/order/test/2/제육볶음/5000)
 
 # 직원호출 API
 ### 직원 호출하기 <br>
@@ -46,7 +46,7 @@ URL/api/order/{가게이름}/{시킨 테이블}/{메뉴이름}/{메뉴가격}/<b
 ```
 
 URL/api/order/{가게이름}/{호출 테이블}/<br>
-[예시](https://easyorderAPI.seungwoohan0104.repl.co/api/test/2/)
+[예시](https://easyorderAPI.seungwoohan0104.repl.co/api/call/test/2/)
 
 # 가게삭제 API
 ### 가게 삭제하기 <br>
@@ -59,5 +59,5 @@ URL/api/order/{가게이름}/{호출 테이블}/<br>
 
 ```
 
-URL/api/order/{가게이름}/<br>
-[예시](https://easyorderAPI.seungwoohan0104.repl.co/api/test/)
+URL/api/deletestore/{가게이름}/<br>
+[예시](https://easyorderAPI.seungwoohan0104.repl.co/api/deletestore/test/)
